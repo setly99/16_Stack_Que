@@ -14,10 +14,10 @@ public class StackPre {
 		stck.push(20);
 		
 		//pop맨 위 값 지우고 반환해서 확인
-		System.out.println("pop : " + stck.pop());
+		System.out.println("pop(탑) : " + stck.pop());
 		
 		//peek현재 맨 위 값 확인
-		System.out.println("peek : " + stck.peek());
+		System.out.println("peek(맨위) : " + stck.peek());
 		
 		//isEmpty비어있는지 확인
 		System.out.println("isEmpty : " + stck.isEmpty());
